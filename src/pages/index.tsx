@@ -1,3 +1,4 @@
+import DisqusComments from "@/components/DisqusComments";
 import Head from "next/head";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
       <main>
         Hello
+        <DisqusComments post={{ id: "1", title: "Hello" }} />
       </main>
     </>
   );
